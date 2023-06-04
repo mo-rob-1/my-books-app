@@ -23,7 +23,8 @@ h1 {
 
 .books {
   display: flex;
-  gap: 10px;
+  gap: 100px;
+  margin-bottom: 1rem;
 }
 
 .book {
@@ -32,6 +33,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  /* width: 10px; */
 }
 
 img {
@@ -112,4 +114,36 @@ input {
   color: white;
   font-weight: bold;
   cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.desc {
+  margin: 0;
+}
+
+.update a {
+  text-decoration: none;
+  color: rgb(139, 139, 234);
+}
+
+.btnWrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.book-title {
+  margin-bottom: 0;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 22px;
+  background-color: black;
+  color: white;
+  padding: 6px;
+  border-radius: 5px;
 }
