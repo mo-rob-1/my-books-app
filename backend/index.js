@@ -9,9 +9,9 @@ dotenv.config();
 
 const db = mysql.createConnection({
   host: "localhost",
-  user: "root",
+  user: process.env.DB_USERNAME,
   password: process.env.DB_PWD,
-  database: "test",
+  database: process.env.DB_NAME,
 });
 
 app.use(express.json());
